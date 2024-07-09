@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "shabnam";
+    src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    font-family: "shabnam";
+}
+.container{
+    width: 1216px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+    /* border: 1px solid black; */
+
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.section-title{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.section-title-icon{
+
+    height: 22px;
+    width: 22px;
+    color:#1E88E5;}
+.section-link{
+
+    color:#1E88E5;
+    text-decoration: none;
+
+}
+.row{
+    display: flex;
+    gap: 24px;
+}
+.product{
+    width: 280px;
+    /* border: 1px solid red; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    padding: 24px;
+}
+.product_image{
+    width: 100%;
+}
+.product_name{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 14px;
+    line-height: 1.6;
+    height: 68px;
+
+}
+.product_link{
+    text-decoration: none;
+    color: #212121;
+}
+.product_offer{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    margin-top: 12px;
+
+
+}
+.product_offer_percent{
+    background-color: #E1F5FE;
+    color: #0277BD;
+    padding: 2px 4px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 4px;
+
+}
+.product_offer_price{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.product-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+
+}
+.product_price{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.produt_price_number{
+    font-weight: bold;
+    font-size: 16px;
+}
+.product_price_unit{
+    font-size: 14px;
+}
+.product_rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.product_rating_number{
+    font-size: 14px;
+    color: #546e7A;
+}
+.product_rating_icon{
+    width: 18px;
+    height: 18px;
+    color: #FDD835;
+
+}
